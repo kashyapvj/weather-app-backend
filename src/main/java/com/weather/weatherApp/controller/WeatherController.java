@@ -28,5 +28,11 @@ public class WeatherController {
 		
 		return response;
 	}
+	
+	@GetMapping("/health")
+	public String getWeather() {
+		
+		return "Hi";
+	}
 
 }
