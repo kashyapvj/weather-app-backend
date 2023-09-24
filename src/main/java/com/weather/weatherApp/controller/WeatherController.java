@@ -12,7 +12,7 @@ import com.weather.weatherApp.service.WeatherService;
 
 @RestController
 @RequestMapping("/weather")
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "*")
 public class WeatherController {
 	
 	private final WeatherService weatherService;
